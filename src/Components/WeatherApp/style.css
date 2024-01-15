@@ -1,0 +1,137 @@
+body,
+h1,
+h2,
+h3,
+p,
+div,
+input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 350px;
+  height: 600px;
+  margin: auto;
+  margin-top: 40px;
+  background: linear-gradient(to bottom, #1c2546, #21294e, #6146a7, #8e43a9);
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  padding-top: 50px;
+  padding-left: 18px;
+}
+
+.top-bar input {
+  display: flex;
+  width: 240px;
+  height: 48px;
+  background: #ebfffc;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding-left: 35px;
+  color: #626262;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.search-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  background: #ebfffc;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.weather-img {
+  margin-top: 20px;
+  margin-left: 35px;
+  display: flex;
+  height: 200px;
+  width: 230px;
+  justify-content: center;
+}
+
+.weather-img img {
+  transition: transform 0.5s ease-in-out;
+  /* Adjust the duration and easing function as needed */
+}
+
+.weather-img:hover img {
+  transform: scale(1.1);
+}
+
+.weather-dec {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.weather-temp {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.weather-location {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 36px;
+  font-weight: 400;
+
+}
+
+.data-container {
+  margin-top: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.element {
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.data {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.text {
+
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.icon {
+  margin-top: 10px;
+  height: 60px;
+  width: 60px;
+}
+
+#humidity {
+  margin-top: 10px;
+  height: 75px;
+  width: 40px;
+}
